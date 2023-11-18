@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+   }
+  
+   ::selection{
+    background: #212121;
+    color: #fff;
+  }
+  ::-moz-selection{
+    background: #212121;
+    color: #fff;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #fff;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #000;
+  }
