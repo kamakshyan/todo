@@ -1,8 +1,6 @@
 import { memo, useState } from "react";
 import { FaPenAlt, FaTrash } from "react-icons/fa";
 import { IoMdClose, IoMdCheckmark } from "react-icons/io";
-import { LuUserCheck,LuUserMinus } from "react-icons/lu";
-
 
 function Task(props: any) {
   const [showEdit, setShowEdit] = useState(false);

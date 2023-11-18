@@ -43,7 +43,7 @@ export default function Home(props: any) {
   // console.log(props.tasks);
   return (
     <main
-    style={{backgroundImage: `url('/marjan-blan-794QUz5-cso-unsplash.jpg')`}}
+    // style={{backgroundImage: `url('/marjan-blan-794QUz5-cso-unsplash.jpg')`}}
       className={`flex bg-fixed bg-cover min-h-screen pt-10 flex-col items-center px-10 ${inter.className}`}
     >
       <div className="w-full md:grid md:grid-cols-2 md:w-full md:items-center">
