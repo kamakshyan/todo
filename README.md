@@ -7,7 +7,12 @@ Collection - **todo**
 
 ![image](https://github.com/kamakshyan/todo/assets/91257779/13637439-104d-4ad9-9a6f-0aec66d8e380)
 
-
+Install node_modules
+```bash
+npm i
+# or
+yarn 
+```
 
 First, run the development server:
 
